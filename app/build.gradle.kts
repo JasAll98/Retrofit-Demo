@@ -37,6 +37,9 @@ android {
 
 dependencies {
 
+    implementation(libs.squareup.retrofit)
+    implementation(libs.squareup.retrofit.converter)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
