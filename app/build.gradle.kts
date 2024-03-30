@@ -43,6 +43,9 @@ dependencies {
     implementation(libs.squareup.retrofit)
     implementation(libs.squareup.retrofit.converter)
 
+    implementation(libs.squareup.okhttp.logging.interceptor)
+    implementation(libs.squareup.okhttp)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
